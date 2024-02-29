@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+    background-color :rgb(209, 233, 253);
+    font-family :serif;
+}
+
+.titleArea {
+    width: auto;
+    height: 150px;
+    margin: 20px 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 100px;
+    letter-spacing: 50px;
+    color: rgb(76, 119, 76);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.menu a {
+    letter-spacing: 5px;
+    padding: 10px 30px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.photo img {
+    width: 600px;
+    height: 300px;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: center;
+    color: rgb(66, 65, 65);
+    height: 100px;
+}
+
+.subTitle h1 {
+    margin-top: 50px;
+    font-weight: 50px;
+    letter-spacing: 7px;
+}
+
+.sentence {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.sentence p {
+    padding-bottom: 8px;
+}
+
+.tPhoto {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tPhoto img {
+    width: 400px;
+    height: 380px;
+}
+.tPhoto:hover img {
+    opacity: 0.6;
+}
+
+.overray {
+    position: absolute;
+    display: inline-block;
+    left: 48%;
+    top: 905px;
+}
+
+.overray h1 {
+    letter-spacing: 3px;
+    font-size: 50px;
+    margin-bottom: 0;
+    height: 60px;
+}
+
+.overray h2 {
+    margin-top: 0;
+    letter-spacing: 6px;
+}
+
+.overrayTitle {
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+
+.formList {
+    background-color: rgb(120, 146, 169);
+    height: 250px;
+    color: aliceblue;
+}
+
+.section {
+    border-bottom: 1px solid rgb(155, 207, 245);
+}
+
+
+input,textarea {
+    width: 230px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid gray;
+    font-family: serif;
+}
+
+.button {
+    background-color: rgb(196, 241, 241);
+}
